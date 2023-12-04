@@ -5,9 +5,10 @@ mod day01_2;
 mod day02_1;
 mod day02_2;
 mod day03_1;
+mod day04_1;
 
 fn main() -> Result<()> {
-    let _ = day03_1::solve();
+    let _ = day04_1::solve();
 
     Ok(())
 }
