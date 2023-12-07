@@ -1,9 +1,9 @@
 use std::io::Result;
 
-mod day05_1;
+mod day06_1;
 
 fn main() -> Result<()> {
-    let _ = day05_1::solve();
+    let _ = day06_1::solve();
 
     Ok(())
 }
