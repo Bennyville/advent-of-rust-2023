@@ -5,7 +5,7 @@ use std::io;
 use regex::Regex;
 
 pub fn solve() -> Result<(), io::Error> {
-    let contents = read_to_string("day08.txt")?;
+    let contents = read_to_string("input/day08.txt")?;
 
     let (directions, nodes) = contents.split_once("\n\n").unwrap();
 

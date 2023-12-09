@@ -19,7 +19,7 @@ pub fn solve() -> Result<(), io::Error> {
         ('A', 14),
     ]);
 
-    let contents = read_to_string("day07.txt")?;
+    let contents = read_to_string("input/day07.txt")?;
 
     let mut hands: Vec<_> = contents
         .lines()

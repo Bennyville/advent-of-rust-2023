@@ -1,7 +1,7 @@
 use std::io::Result;
 
 pub fn solve() -> Result<()> {
-    let rows: u32 = std::fs::read_to_string("day01.txt")?
+    let rows: u32 = std::fs::read_to_string("input/day01.txt")?
         .split("\n")
         .map(|f| {
             f.chars()

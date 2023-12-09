@@ -3,7 +3,7 @@ use std::{collections::HashMap, io::Result};
 use regex::Regex;
 
 pub fn solve() -> Result<()> {
-    let input = std::fs::read_to_string("day02.txt")?;
+    let input = std::fs::read_to_string("input/day02.txt")?;
 
     let re = Regex::new(r"([0-9]+)\s(blue|green|red)").unwrap();
 

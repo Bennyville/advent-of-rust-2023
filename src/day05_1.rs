@@ -2,7 +2,7 @@ use std::fs::read_to_string;
 use std::io;
 
 pub fn solve() -> Result<(), io::Error> {
-    let contents = read_to_string("day05.txt")?;
+    let contents = read_to_string("input/day05.txt")?;
 
     let test: Vec<&str> = contents.split("\n\n").collect();
 

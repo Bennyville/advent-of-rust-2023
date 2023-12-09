@@ -1,7 +1,7 @@
 use std::io::Result;
 
 pub fn solve() -> Result<()> {
-    let input = std::fs::read_to_string("day03.txt")?;
+    let input = std::fs::read_to_string("input/day03.txt")?;
 
     let parsed_lines: Vec<Vec<char>> = input.lines().map(|line| line.chars().collect()).collect();
 

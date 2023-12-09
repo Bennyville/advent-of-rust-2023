@@ -2,7 +2,7 @@ use std::fs::read_to_string;
 use std::io;
 
 pub fn solve() -> Result<(), io::Error> {
-    let contents = read_to_string("day09.txt")?;
+    let contents = read_to_string("input/day09.txt")?;
 
     let result: i32 = contents
         .lines()
